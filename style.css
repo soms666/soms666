@@ -17,3 +17,4 @@
 .machine-photo{border:none}
 .brand-mark{display:inline-block;transform:rotate(180deg);color:var(--red)}
 .brand-mark,.nav-cta span,.text-link span,.watch b,.button span,.footer a{font-variant-emoji:text;font-family:var(--body)}
+.brand-mark svg{display:block;width:24px;height:24px;fill:var(--red);transform:rotate(180deg)}.arrow-icon{display:inline-flex!important;width:14px;height:14px;vertical-align:middle}.arrow-icon svg{width:14px;height:14px;fill:none;stroke:var(--red);stroke-width:1.6;stroke-linecap:square;stroke-linejoin:miter}

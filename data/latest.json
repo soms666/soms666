@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-09-04T10:10:27.819Z",
+  "refreshedAt": "2026-09-04T10:14:40.220Z",
   "items": [
     {
       "videoId": "upHn9krRc2M",
@@ -29,6 +29,15 @@
     "date": "2026-08-24T11:35:14.000Z",
     "distanceKm": 171,
     "durationMinutes": 234,
+    "activeMinutes": 232,
+    "stoppedMinutes": 2,
+    "stopCount": 1,
+    "elevationGainM": 999,
+    "elevationLossM": 1001,
+    "segmentsKm": [
+      59.2,
+      111.8
+    ],
     "averageKmh": 43.8,
     "route": [
       {
@@ -511,6 +520,15 @@
       "date": "2026-08-24T11:35:14.000Z",
       "distanceKm": 171,
       "durationMinutes": 234,
+      "activeMinutes": 232,
+      "stoppedMinutes": 2,
+      "stopCount": 1,
+      "elevationGainM": 999,
+      "elevationLossM": 1001,
+      "segmentsKm": [
+        59.2,
+        111.8
+      ],
       "averageKmh": 43.8,
       "route": [
         {

@@ -27,6 +27,12 @@ fetch('data/latest.json?v=' + Date.now()).then(response => response.json()).then
         document.querySelector('[data-route-distance]').textContent = `${selected.distanceKm} km`;
         document.querySelector('[data-route-duration]').textContent = selected.durationMinutes ? `${Math.floor(selected.durationMinutes / 60)}h ${selected.durationMinutes % 60}m` : '—';
         document.querySelector('[data-route-speed]').textContent = selected.averageKmh ? `${selected.averageKmh} km/h` : '—';
+        document.querySelector('[data-route-date]').textContent = selected.date ? new Date(selected.date).toLocaleDateString('sv-SE') : 'DATE —';
+        document.querySelector('[data-route-active]').textContent = selected.activeMinutes ? `ACTIVE ${Math.floor(selected.activeMinutes / 60)}h ${selected.activeMinutes % 60}m` : 'ACTIVE —';
+        document.querySelector('[data-route-stopped]').textContent = selected.stoppedMinutes ? `STOPPED ${Math.floor(selected.stoppedMinutes / 60)}h ${selected.stoppedMinutes % 60}m` : 'STOPPED —';
+        document.querySelector('[data-route-stops]').textContent = `STOPS ${selected.stopCount ?? '—'}`;
+        document.querySelector('[data-route-elevation]').textContent = `ELEVATION +${selected.elevationGainM ?? '—'}m / -${selected.elevationLossM ?? '—'}m`;
+        document.querySelector('[data-route-segments]').textContent = selected.segmentsKm?.length ? `SEGMENTS ${selected.segmentsKm.join(' · ')} km` : 'SEGMENTS —';
       };
       renderRoute(routes[0]);
       const list = document.querySelector('[data-route-list]');

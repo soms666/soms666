@@ -17,6 +17,7 @@ fetch('data/latest.json?v=' + Date.now()).then(response => response.json()).then
   if (journalTitle) journalTitle.textContent = journal.title;
   if (journalBody) journalBody.textContent = journal.body;
   const routes = rideArchive.length ? rideArchive : (ride ? [ride] : []);
+  const routeDate = (date) => date ? new Date(date).toLocaleString('sv-SE', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).replace(',', '') : 'DATE —';
   if (routes.length) {
     const card = document.querySelector('[data-route-card]');
     const line = document.querySelector('[data-route-line]');
@@ -45,7 +46,7 @@ fetch('data/latest.json?v=' + Date.now()).then(response => response.json()).then
         routes.slice(0, 10).forEach((route, index) => {
           const button = document.createElement('button');
           button.type = 'button';
-          button.textContent = `${route.eventName || (route.date ? new Date(route.date).toLocaleDateString('sv-SE') : route.filename)} · ${route.distanceKm} km`;
+          button.textContent = `${routeDate(route.date)} · ${route.distanceKm} km`;
           button.classList.toggle('is-selected', index === 0);
           button.addEventListener('click', () => {
             list.querySelectorAll('button').forEach((item) => item.classList.remove('is-selected'));

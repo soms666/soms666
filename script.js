@@ -39,7 +39,7 @@ fetch('data/latest.json?v=' + Date.now()).then(response => response.json()).then
       const archive = document.querySelector('[data-route-archive]');
       if (list && archive && routes.length > 1) {
         archive.hidden = false;
-        routes.forEach((route, index) => {
+        routes.slice(0, 10).forEach((route, index) => {
           const button = document.createElement('button');
           button.type = 'button';
           button.textContent = `${route.date ? new Date(route.date).toLocaleDateString('sv-SE') : route.filename} · ${route.distanceKm} km`;

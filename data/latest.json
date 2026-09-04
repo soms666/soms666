@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-09-04T10:25:52.957Z",
+  "refreshedAt": "2026-09-04T11:03:48.972Z",
   "items": [
     {
       "videoId": "upHn9krRc2M",
@@ -29,17 +29,19 @@
     "filename": "cardo-ride-trip_8.gpx",
     "date": "2026-09-03T11:10:34.051Z",
     "distanceKm": 52.3,
-    "durationMinutes": 151,
-    "activeMinutes": 151,
-    "stoppedMinutes": 0,
-    "stopCount": 1,
+    "durationMinutes": 63,
+    "elapsedMinutes": 151,
+    "activeMinutes": 63,
+    "stoppedMinutes": 88,
+    "stopCount": 2,
     "elevationGainM": 252,
     "elevationLossM": 247,
     "segmentsKm": [
-      29.4,
-      23
+      35.5,
+      1.9,
+      14.8
     ],
-    "averageKmh": 20.8,
+    "averageKmh": 49.6,
     "route": [
       {
         "x": 72.74,
@@ -493,17 +495,19 @@
       "filename": "cardo-ride-trip_8.gpx",
       "date": "2026-09-03T11:10:34.051Z",
       "distanceKm": 52.3,
-      "durationMinutes": 151,
-      "activeMinutes": 151,
-      "stoppedMinutes": 0,
-      "stopCount": 1,
+      "durationMinutes": 63,
+      "elapsedMinutes": 151,
+      "activeMinutes": 63,
+      "stoppedMinutes": 88,
+      "stopCount": 2,
       "elevationGainM": 252,
       "elevationLossM": 247,
       "segmentsKm": [
-        29.4,
-        23
+        35.5,
+        1.9,
+        14.8
       ],
-      "averageKmh": 20.8,
+      "averageKmh": 49.6,
       "route": [
         {
           "x": 72.74,
@@ -956,16 +960,18 @@
       "filename": "cardo-ride-trip_7.gpx",
       "date": "2026-09-02T12:58:38.001Z",
       "distanceKm": 31,
-      "durationMinutes": 40,
-      "activeMinutes": 40,
-      "stoppedMinutes": 0,
-      "stopCount": 0,
+      "durationMinutes": 33,
+      "elapsedMinutes": 40,
+      "activeMinutes": 33,
+      "stoppedMinutes": 6,
+      "stopCount": 1,
       "elevationGainM": 149,
       "elevationLossM": 150,
       "segmentsKm": [
-        31
+        16.2,
+        14.8
       ],
-      "averageKmh": 46.5,
+      "averageKmh": 56,
       "route": [
         {
           "x": 73.23,
@@ -1438,17 +1444,17 @@
       "filename": "cardo-ride-trip_6.gpx",
       "date": "2026-09-02T05:46:07.737Z",
       "distanceKm": 39.5,
-      "durationMinutes": 431,
-      "activeMinutes": 429,
-      "stoppedMinutes": 2,
+      "durationMinutes": 28,
+      "elapsedMinutes": 431,
+      "activeMinutes": 28,
+      "stoppedMinutes": 402,
       "stopCount": 1,
       "elevationGainM": 146,
       "elevationLossM": 134,
       "segmentsKm": [
-        39.5,
-        0
+        39.4
       ],
-      "averageKmh": 5.5,
+      "averageKmh": 83.7,
       "route": [
         {
           "x": 53.88,
@@ -1933,22 +1939,20 @@
       "filename": "cardo-ride-trip_4.gpx",
       "date": "2026-08-28T05:57:33.107Z",
       "distanceKm": 112.7,
-      "durationMinutes": 495,
-      "activeMinutes": 494,
-      "stoppedMinutes": 1,
-      "stopCount": 6,
+      "durationMinutes": 113,
+      "elapsedMinutes": 495,
+      "activeMinutes": 113,
+      "stoppedMinutes": 381,
+      "stopCount": 4,
       "elevationGainM": 688,
       "elevationLossM": 689,
       "segmentsKm": [
         31.7,
-        0.1,
-        23.7,
-        0,
-        9,
-        27.4,
-        20.9
+        23.6,
+        36.4,
+        20.8
       ],
-      "averageKmh": 13.7,
+      "averageKmh": 59.7,
       "route": [
         {
           "x": 9.71,
@@ -2433,19 +2437,18 @@
       "filename": "cardo-ride-trip_3.gpx",
       "date": "2026-08-27T12:07:50.548Z",
       "distanceKm": 129.3,
-      "durationMinutes": 178,
-      "activeMinutes": 178,
-      "stoppedMinutes": 0,
-      "stopCount": 3,
+      "durationMinutes": 138,
+      "elapsedMinutes": 178,
+      "activeMinutes": 138,
+      "stoppedMinutes": 41,
+      "stopCount": 2,
       "elevationGainM": 726,
       "elevationLossM": 728,
       "segmentsKm": [
-        103.6,
-        0.7,
-        8,
-        17
+        86.9,
+        42.4
       ],
-      "averageKmh": 43.6,
+      "averageKmh": 56.4,
       "route": [
         {
           "x": 35.56,
@@ -2934,21 +2937,22 @@
       "filename": "cardo-ride-trip_2.gpx",
       "date": "2026-08-25T06:04:28.000Z",
       "distanceKm": 101.9,
-      "durationMinutes": 427,
-      "activeMinutes": 426,
-      "stoppedMinutes": 1,
+      "durationMinutes": 109,
+      "elapsedMinutes": 427,
+      "activeMinutes": 109,
+      "stoppedMinutes": 319,
       "stopCount": 5,
       "elevationGainM": 580,
       "elevationLossM": 579,
       "segmentsKm": [
-        31.8,
-        0.2,
+        31,
+        0.8,
         1.8,
-        14.4,
-        33.2,
-        20.6
+        14.3,
+        32.8,
+        20.9
       ],
-      "averageKmh": 14.3,
+      "averageKmh": 56.2,
       "route": [
         {
           "x": 11.73,
@@ -3433,17 +3437,21 @@
       "filename": "cardo-ride-trip-soms-monday.gpx",
       "date": "2026-08-24T11:35:14.000Z",
       "distanceKm": 171,
-      "durationMinutes": 234,
-      "activeMinutes": 232,
-      "stoppedMinutes": 2,
-      "stopCount": 1,
+      "durationMinutes": 171,
+      "elapsedMinutes": 234,
+      "activeMinutes": 171,
+      "stoppedMinutes": 63,
+      "stopCount": 4,
       "elevationGainM": 999,
       "elevationLossM": 1001,
       "segmentsKm": [
-        59.2,
-        111.8
+        17.2,
+        46.9,
+        52.2,
+        16.9,
+        37.7
       ],
-      "averageKmh": 43.8,
+      "averageKmh": 59.9,
       "route": [
         {
           "x": 10.44,

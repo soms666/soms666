@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-09-04T12:54:56.509Z",
+  "refreshedAt": "2026-09-04T13:07:50.232Z",
   "items": [
     {
       "videoId": "upHn9krRc2M",
@@ -27,6 +27,7 @@
   "ride": {
     "id": "79b5b28f367b219a",
     "filename": "cardo-ride-trip_8.gpx",
+    "eventName": "Thursday Ride",
     "date": "2026-09-03T11:10:34.051Z",
     "totem": "THE RABBIT",
     "distanceKm": 52.3,
@@ -494,6 +495,7 @@
     {
       "id": "79b5b28f367b219a",
       "filename": "cardo-ride-trip_8.gpx",
+      "eventName": "Thursday Ride",
       "date": "2026-09-03T11:10:34.051Z",
       "totem": "THE RABBIT",
       "distanceKm": 52.3,
@@ -960,6 +962,7 @@
     {
       "id": "070e55d3415124ba",
       "filename": "cardo-ride-trip_7.gpx",
+      "eventName": "Wednesday Ride",
       "date": "2026-09-02T12:58:38.001Z",
       "totem": "THE ELK",
       "distanceKm": 31,
@@ -1445,6 +1448,7 @@
     {
       "id": "3bc5d48ccff31c09",
       "filename": "cardo-ride-trip_6.gpx",
+      "eventName": "Wednesday Ride",
       "date": "2026-09-02T05:46:07.737Z",
       "totem": "THE CROCK",
       "distanceKm": 39.5,
@@ -1941,6 +1945,7 @@
     {
       "id": "742602337e0244b0",
       "filename": "cardo-ride-trip_4.gpx",
+      "eventName": "Friday Ride",
       "date": "2026-08-28T05:57:33.107Z",
       "totem": "THE LIZZARD",
       "distanceKm": 112.7,
@@ -2440,6 +2445,7 @@
     {
       "id": "bd634a1f58d98b9c",
       "filename": "cardo-ride-trip_3.gpx",
+      "eventName": "Thursday Ride",
       "date": "2026-08-27T12:07:50.548Z",
       "totem": "THE CHICKEN",
       "distanceKm": 129.3,
@@ -2941,6 +2947,7 @@
     {
       "id": "64d4af8e06cc0f5e",
       "filename": "cardo-ride-trip_2.gpx",
+      "eventName": "Tuesday Ride",
       "date": "2026-08-25T06:04:28.000Z",
       "totem": "THE DEER",
       "distanceKm": 101.9,
@@ -3442,6 +3449,7 @@
     {
       "id": "8996c5d2952d159d",
       "filename": "cardo-ride-trip-soms-monday.gpx",
+      "eventName": "Monday Ride",
       "date": "2026-08-24T11:35:14.000Z",
       "totem": "THE BULL",
       "distanceKm": 171,
@@ -3938,6 +3946,7 @@
     {
       "id": "4a68bfb727ae30e2",
       "filename": "CARDO_RIDE_TRIP_friday.gpx",
+      "eventName": null,
       "date": null,
       "totem": "THE CROCK",
       "distanceKm": 64.1,

@@ -45,8 +45,13 @@ fetch('data/latest.json?v=' + Date.now()).then(response => response.json()).then
         routes.slice(0, 10).forEach((route, index) => {
           const button = document.createElement('button');
           button.type = 'button';
-          button.textContent = `${route.date ? new Date(route.date).toLocaleDateString('sv-SE') : route.filename} · ${route.distanceKm} km`;
-          button.addEventListener('click', () => renderRoute(routes[index]));
+          button.textContent = `${route.eventName || (route.date ? new Date(route.date).toLocaleDateString('sv-SE') : route.filename)} · ${route.distanceKm} km`;
+          button.classList.toggle('is-selected', index === 0);
+          button.addEventListener('click', () => {
+            list.querySelectorAll('button').forEach((item) => item.classList.remove('is-selected'));
+            button.classList.add('is-selected');
+            renderRoute(routes[index]);
+          });
           list.append(button);
         });
       }

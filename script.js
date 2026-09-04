@@ -24,6 +24,7 @@ fetch('data/latest.json?v=' + Date.now()).then(response => response.json()).then
       card.hidden = false;
       const renderRoute = (selected) => {
         line.setAttribute('points', selected.route.map(point => `${point.x},${point.y}`).join(' '));
+        document.querySelector('[data-route-totem]').textContent = `TOTEM: ${selected.totem || 'THE FOX'}`;
         document.querySelector('[data-route-distance]').textContent = `${selected.distanceKm} km`;
         document.querySelector('[data-route-duration]').textContent = selected.durationMinutes ? `${Math.floor(selected.durationMinutes / 60)}h ${selected.durationMinutes % 60}m` : '—';
         document.querySelector('[data-route-speed]').textContent = selected.averageKmh ? `${selected.averageKmh} km/h` : '—';

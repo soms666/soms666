@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-09-04T10:22:41.309Z",
+  "refreshedAt": "2026-09-04T10:25:52.957Z",
   "items": [
     {
       "videoId": "upHn9krRc2M",
@@ -25,6 +25,7 @@
     "body": "A full tank, open asphalt, and no reason to hurry. Out on a Mission with Rappen. The long way home still wins."
   },
   "ride": {
+    "id": "79b5b28f367b219a",
     "filename": "cardo-ride-trip_8.gpx",
     "date": "2026-09-03T11:10:34.051Z",
     "distanceKm": 52.3,
@@ -488,6 +489,7 @@
   },
   "rideArchive": [
     {
+      "id": "79b5b28f367b219a",
       "filename": "cardo-ride-trip_8.gpx",
       "date": "2026-09-03T11:10:34.051Z",
       "distanceKm": 52.3,
@@ -950,6 +952,7 @@
       ]
     },
     {
+      "id": "070e55d3415124ba",
       "filename": "cardo-ride-trip_7.gpx",
       "date": "2026-09-02T12:58:38.001Z",
       "distanceKm": 31,
@@ -1431,6 +1434,7 @@
       ]
     },
     {
+      "id": "3bc5d48ccff31c09",
       "filename": "cardo-ride-trip_6.gpx",
       "date": "2026-09-02T05:46:07.737Z",
       "distanceKm": 39.5,
@@ -1925,6 +1929,7 @@
       ]
     },
     {
+      "id": "742602337e0244b0",
       "filename": "cardo-ride-trip_4.gpx",
       "date": "2026-08-28T05:57:33.107Z",
       "distanceKm": 112.7,
@@ -2424,6 +2429,7 @@
       ]
     },
     {
+      "id": "bd634a1f58d98b9c",
       "filename": "cardo-ride-trip_3.gpx",
       "date": "2026-08-27T12:07:50.548Z",
       "distanceKm": 129.3,
@@ -2924,6 +2930,7 @@
       ]
     },
     {
+      "id": "64d4af8e06cc0f5e",
       "filename": "cardo-ride-trip_2.gpx",
       "date": "2026-08-25T06:04:28.000Z",
       "distanceKm": 101.9,
@@ -3422,6 +3429,7 @@
       ]
     },
     {
+      "id": "8996c5d2952d159d",
       "filename": "cardo-ride-trip-soms-monday.gpx",
       "date": "2026-08-24T11:35:14.000Z",
       "distanceKm": 171,
